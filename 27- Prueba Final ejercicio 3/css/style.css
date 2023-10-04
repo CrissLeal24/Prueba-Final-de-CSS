@@ -1,0 +1,271 @@
+body {
+    background-color: lightskyblue; 
+}
+
+.container {
+    background-color: rgb(242, 238, 238);
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+    border-bottom-right-radius: 76px;
+    margin-left: 38%; 
+    margin-top: 72px;
+    position: relative;
+}
+/* Parte superior del gameboy*/
+.top{
+    border-bottom:2px solid grey;
+    width: 500px;
+    height: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+}
+
+.boxing-1{
+height: 35px;
+width: 35px;
+position: absolute;
+border-right:2px solid #292323;
+}
+.boxing-2{
+height: 35px;
+width: 35px;
+position: absolute;
+margin-left: 465px;
+border-left:2px solid #292323 ;
+}
+
+/* ---Pantalla del gameboy---*/
+.box-pantalla {
+    background-color: grey;
+    width: 405px;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 60px;
+    position: absolute;
+}
+
+.sub-pantalla {
+    background-color: #c5b56a;
+    width: 270px;
+    height: 195px;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.inside{
+    background-color: purple;
+    height: 4px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.linea {
+    margin-left: 10px;
+    width: 115px;
+}
+.linea-1{
+    margin-left: 345px;
+    width: 50px;  
+}
+
+.inside-2 {
+    background-color: blue;
+    height: 4px;
+    margin-top: 15px;
+    position: absolute;
+}
+.linea-a1{
+    margin-left: 10px;
+    width: 115px;
+}
+.linea-a2{
+    margin-left: 345px;
+    width: 50px;
+}
+
+.box-escrito {
+    font-size: 11.8px;
+    margin-top: -3.2px;
+    margin-left: 127px;
+    position: absolute;
+}
+
+.box-luz{
+    background-color: palevioletred;
+    width: 10px;
+    height: 10px;
+    margin-top: 140px;
+    margin-left: 35px;
+    border-radius: 150px;
+    position: absolute;
+}
+
+.box-batery{
+    font-size: 10px;
+    margin-top: 145px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.box-direccionales{
+    width: 120px;
+    height: 120px;
+    margin-top: 65%;
+    margin-left: 15%;
+    position: relative;
+    
+}
+.box-horizontal {
+    background-color:#383737;
+    margin-top: 33.45%;
+    width: 120px;
+    height: 40px;
+    position: absolute; 
+}
+
+    
+.box-vertical {
+    background-color: #383737;
+    margin-left: 33.45%;
+    width: 40px;
+    height: 120px;
+    position: absolute;
+}
+
+.box-circulo {
+    background-color: #292323;
+    margin-top: 28.65%;
+    margin-left: 28.45%;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    position: absolute;
+}
+
+.box-botones {
+   background-color: rgb(181, 176, 176);
+   width: 63px; 
+   height: 140px;
+   margin-left: 70%;
+   margin-top: -125px;
+   border-radius: 80px 65px/ 65px 60px;
+   transform: rotate(45deg);
+   position: absolute;
+}
+
+.boton-1 {
+    background-color: rgb(178, 22, 74);
+    width: 52px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 8%;
+    border-radius: 100px;
+    position: absolute; 
+}
+
+.boton-2 {
+    background-color: rgb(178, 22, 74);
+    width: 52px;
+    height: 50px;
+    margin-top: 84px;
+    margin-left: 7.5%;
+    border-radius: 100px;
+    position: absolute;
+}
+.box-inferior{
+    width: 200px;
+    height: 200px;
+    margin-left: 165px;
+    position: relative;
+}
+
+.fondo-reset{
+    background-color: rgb(181, 176, 176);
+    width: 28px; 
+    height: 90px;
+    margin-top: 85px;
+    border-radius: 80px 65px/ 65px 60px;
+    margin-left: 130px;
+    position: absolute; 
+    transform: rotate(55deg);
+}
+
+.boton-reset {
+    background-color: rgb(88, 84, 84);
+    width: 27px; 
+    height: 80px;
+    margin-top: 90px;
+    margin-left: 130px;
+    border-radius: 80px 65px/ 65px 60px;
+    transform: rotate(55deg);
+    position: absolute;
+}
+
+.fondo-start {
+    background-color: rgb(181, 176, 176);
+    width: 28px; 
+    height: 90px;
+    margin-top: 85px;
+    border-radius: 80px 65px/ 65px 60px;
+    margin-left: 50px;
+    position: absolute;
+    transform: rotate(55deg);  
+}
+.boton-start {
+    background-color: rgb(88, 84, 84);
+    width: 28px; 
+    height: 80px;
+    margin-top: 91px;
+    margin-left: 50px;
+    border-radius: 80px 65px/ 65px 60px;
+    transform: rotate(55deg);
+    position: absolute; 
+}
+
+/* Cornetas */
+.box-cornetas {
+    width: 90px; 
+    height: 60px;
+    margin-top: -70px;
+    margin-left: 79%;
+    transform: rotate(-42deg);
+    position: absolute;
+     
+}
+
+.cornetas-1, 
+.cornetas-2, 
+.cornetas-3, 
+.cornetas-4, 
+.cornetas-5, 
+.cornetas-6 {
+    background-color: rgb(181, 176, 176);
+    width: 10px; 
+    height: 60px;
+    border-radius: 80px 65px/ 65px 60px;
+    position: absolute;
+}
+
+.cornetas-2{
+margin-left: 16px;
+} 
+.cornetas-3{
+margin-left: 32px;
+}
+.cornetas-4{
+margin-left: 48px;
+}
+.cornetas-5{
+margin-left: 64px;
+}
+.cornetas-6{
+margin-left: 80px;
+}
+

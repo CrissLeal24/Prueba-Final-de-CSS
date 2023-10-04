@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Custom preview";
+    src: url('../assets/fonts/HK-Grotesk-Regular.ttf');
+}
+
+body {
+    background: linear-gradient(to right ,rgba(31, 67, 175, 0.5), rgba(108, 24, 191, 0.7));
+    font-family: Custom preview;
+}
+
+.container {
+    background-color: white;
+    width: 520px;
+    height: 400px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+}
+
+.text {
+    border-bottom: 2px solid rgb(130, 100, 201);
+    width: 35px;
+    margin-left: 20px;   
+    padding-top: 15px;
+}
+
+.text-2 {
+ border:1px solid rgb(218, 212, 212);
+ border-radius: 3px;
+ margin-bottom: 10px;
+ height: 25px;
+ width: 220px;
+
+}
+
+.gender {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 20px;
+}
+
+.radio {
+    background-color: grey;
+}
+
+.select {
+    padding-right: 40px;
+    
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+   /* margin-left: 25px;*/
+}
+
+.box-1 {
+    margin-left: 25px;   
+}
+
+.box-2{
+    margin-left: 275px; 
+}
+
+
+.button{
+    width: 88%;
+    height: 35px;
+    background: linear-gradient(to right ,rgba(31, 67, 175, 0.5), rgba(108, 24, 191, 0.7));
+    border-radius: 5px;
+    margin-top: 270px;
+    margin-left: 30px;
+    border: none;
+    border-color: 0%;
+    color: white;
+    position: absolute;
+}
+
+.button:hover{
+    cursor: pointer;
+    
+}
